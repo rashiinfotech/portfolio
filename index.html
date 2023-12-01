@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.webp" class="shape square" alt="" />
+          <img src="./img/shapes/circle.webp" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.webp"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.webp"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.webp" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.webp" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.webp" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.webp" class="shape triangle" alt="" />
+          <img src="./img/shapes/letters.webp" class="letters" alt="" />
+          <img src="./img/shapes/points1.webp" class="points points1" alt="" />
+        </div>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#testimonials">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Mohammed Rashid T</h1>
+              <p class="text">
+                Hello, I'm Rashid, web design and developer. 
+                I'm a self taught MERN Full stack Developer
+              </p>
+             
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.webp"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/about.webp" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+            <p class="text">
+             I'm a amateur in AI,Machine Learning,Python
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.webp"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.webp" class="icon" alt="" />
+                  <h3 class="title-sm">AI</h3>
+                  <p class="text">
+                    I am Learning Artificical Inteligence
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.webp" class="icon" alt="" />
+                  <h3 class="title-sm">Machine Learning</h3>
+                  <p class="text">
+                    I am Learning Machine Learning
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.webp"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.webp" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    I am Learning Web Devolopment
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.webp"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.webp"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.webp" class="shape square" alt="" />
+            <img src="./img/shapes/wave.webp" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.webp" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.webp"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.webp" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="My works">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+              <button class="filter-btn" data-filter=".appdev">
+                Mobile App
+              </button>
+              <button class="filter-btn" data-filter=".logo-design">
+                Logo Design
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.webp" alt=""/>
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI / UX Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>App Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>App Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.webp" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+                Mohammed Rashid ,I'm a intern at BROATOTYPE ,Currently i am learning AI,ML,Web Development
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.webp" class="points" alt="" />
+              <img src="./img/person.webp" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/square.webp" alt="" class="shape square1" />
+          <img src="./img/shapes/square.webp" alt="" class="shape square2" />
+          <img src="./img/shapes/circle.webp" alt="" class="shape circle" />
+          <img
+            src="./img/shapes/half-circle.webp"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./img/shapes/wave.webp" alt="" class="shape wave wave1" />
+          <img src="./img/shapes/wave.webp" alt="" class="shape wave wave2" />
+          <img src="./img/shapes/x.webp" alt="" class="shape xshape" />
+          <img src="./img/shapes/triangle.webp" alt="" class="shape triangle" />
+        </div>
+
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="235">0</h2>
+              <h4 class="sub-title">Projects</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="174">0</h2>
+              <h4 class="sub-title">Happy Clients</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="892">0</h2>
+              <h4 class="sub-title">Work Hour</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="368">0</h2>
+              <h4 class="sub-title">Awards</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What People Say">Testimonials</h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      He is hardworker
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Ramees</h3>
+                      <h5 class="review-job">Admin , BROATOTYPE</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Nice Projects
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Bilal</h3>
+                      <h5 class="review-job">Counselor , BROATOTYPE</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                    Hard Woker
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Nikhil kilivayil</h3>
+                      <h5 class="review-job">CEO,Founder , BROATOTYPE</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Nice Projects
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Shibili</h3>
+                      <h5 class="review-job">Placement Head , BROATOTYPE</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-nav swiper-button-prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="review-nav swiper-button-next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/testi.webp" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+               Feel free to contact me.
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Bengaluru ,India</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">trashidmon@gmail.com</p>
+                </div>
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">+91 9544222261</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <form id="submit-form">
+              <div class="row">
+                <input type="text" name="Full Name" class="contact-input" placeholder="Full Name" id="name" required  onkeyup="validateName()"/>
+                <div id="name-error"></div>
+              </div>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" name="Phone"/>
+                <div id="phone-error"></div>
+                
+              </div>
+              <div class="row">
+                <input type="email" class="contact-input" placeholder="Email" name="Email" id="email" required onkeyup="validateEmail()" />
+                <div id="email-error"></div>
+              </div>
+              <div class="row">
+                <textarea name="Message" class="contact-input textarea" placeholder="Message" required id="contact-message" onkeyup="validateMessage()" ></textarea>
+                <div id="message-error"></div>
+              </div>
+              <button  type="submit" value="Submit" class="btn" onclick="  return validateForm()"> Submit</button>
+              <div id="submit-error"></div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Let's talk about a project</h3>
+          <p class="text">
+            Direct Message me for discussing about a project.
+          </p>
+          <a href="https://wa.me/+919809774403" class="btn">Hire me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+             I'm a self thought MERN Full Stack Developer.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Services</h3>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Dev</a>
+              </li>
+              <li>
+                <a href="#">App Design</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">UI Design</a>
+              </li>
+            </ul>
+          </div>            
+           <!-- <div class="footer-input"></div>       -->
+          </div>
+        </div>
+        <div class="bottom-footer">          
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+          
+                <a href="#">
+                  <i class="fab fa-"></i>
+                </a>
+                <a href="https://www.instagram.com/rashi_infotech/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/trashidmon/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbwwE0H0UP1JMvkp98NhYZ4IfoqnTbl1vM1KWMLpmQWuDGZmGrTmjdAohRQuEZ6lmVh5Tg/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+   <script>
+
+    var nameError = document.getElementById('name-error');
+    var emailError = document.getElementById('email-error');
+    var messageError = document.getElementById('message-error');
+    var submitError = document.getElementById('submit-error');
+    
+    function validateName()
+    {
+        var name = document.getElementById('name').value;
+        if(name.length ==0)
+        {
+            nameError.innerHTML ='name is required'
+            return false;
+        }
+        else if(!name.match(/^[A-Za-z]+( [A-Za-z]+){1,2}$/)){
+            nameError.innerHTML ='write your full name';
+            return false;
+            
+        }
+        nameError.innerHTML = '<i class="uil uil-check-circle"></i>';
+        return true;
+    }
+    function validateEmail()
+    {
+        var email = document.getElementById('email').value;
+        if(email.length==0)
+        {
+            emailError.innerHTML ='email is required'
+            return false;
+        }
+        if(!email.match(/^[A-Za-z\._\-[0-9]+@[A-Za-z]+\.[a-z]{2,}$/))
+        {
+            emailError.innerHTML ='Email is invalid'
+            return false;
+        }
+        emailError.innerHTML = '<i class="uil uil-check-circle"></i>';
+        return true;
+    }
+    function validateMessage()
+    {
+        var message = document.getElementById('contact-message').value;
+        var required =2;
+        var left = required - message.length;
+        if(left>0)
+        {
+            messageError.innerHTML = left +'more characters required';
+            return false;
+        }
+    
+        messageError.innerHTML= '<i class="uil uil-check-circle"></i>';
+        return true;
+    }
+    function validateForm()
+    {
+        if(!validateName() || !validateEmail() || !validateMessage())
+        {
+           
+            document.getElementById('submit-error').style.display = 'block';
+            submitError.innerHTML = 'please fill the all field';
+            setTimeout(function(){submitError.style.display ='none';}, 3000);
+            return false;
+          
+        }
+    }
+    </script>
+  </body>
+</html>
